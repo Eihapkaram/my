@@ -154,6 +154,9 @@ export default {
       $("input").blur(function () {
         $(this).prev().removeClass("focus");
       });
+      $("input").keydown(function () {
+        $(this).prev().hide();
+      });
     }, 200);
   },
   methods: {
