@@ -129,7 +129,7 @@ export default {
   width: 250px;
 }
 #card3:hover {
-  transform: rotateY(-180deg);
+  transform: scale(1.3);
   transition: all, 3s;
 }
 div {
