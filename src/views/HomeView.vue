@@ -15,7 +15,7 @@ import CardCom from "@/components/CardCom.vue";
 import JumBe from "@/components/JumBe.vue";
 import HelloWorld from "@/components/HelloWorld.vue";
 import CardRoom from "../components/CardRoom.vue";
-import GallaryCom from "../components/GallaryCom.vue"
+import GallaryCom from "../components/GallaryCom.vue";
 export default {
   name: "HomeView",
   components: {
@@ -23,7 +23,7 @@ export default {
     JumBe,
     CardCom,
     CardRoom,
-   GallaryCom,
+    GallaryCom,
   },
 };
 </script>
