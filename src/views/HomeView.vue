@@ -4,8 +4,7 @@
       <HelloWorld msg="Welcome in Vista hotel" />
       <JumBe />
       <CardCom />
-      <RoomV1 />
-      <RoomV2 />
+      <GallaryCom />
       <CardRoom />
     </div>
   </body>
@@ -16,8 +15,7 @@ import CardCom from "@/components/CardCom.vue";
 import JumBe from "@/components/JumBe.vue";
 import HelloWorld from "@/components/HelloWorld.vue";
 import CardRoom from "../components/CardRoom.vue";
-import RoomV1 from "@/components/RoomV1.vue";
-import RoomV2 from "@/components/RoomV2.vue";
+import GallaryCom from "../components/GallaryCom.vue"
 export default {
   name: "HomeView",
   components: {
@@ -25,8 +23,7 @@ export default {
     JumBe,
     CardCom,
     CardRoom,
-    RoomV1,
-    RoomV2,
+   GallaryCom,
   },
 };
 </script>
