@@ -22,7 +22,6 @@ export default {
   },
 };
 </script>
-
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -157,7 +156,10 @@ nav {
     position: relative;
     gap: 10rem;
     flex: 1 0 100%;
-    left: 35rem;
+    left: 0;
+  }
+  #garandp div {
+    left: 26rem;
   }
   #room {
     flex: 1 0 100%;
@@ -330,6 +332,7 @@ nav {
     position: relative;
     text-align: center;
     margin: 0px;
+    left: 0px;
   }
   #con2 {
     display: flex;
@@ -376,7 +379,10 @@ nav {
     position: relative;
     gap: 10rem;
     flex: 1 0 100%;
-    left: 18rem;
+    left: 0rem;
+  }
+  #garandp div {
+    left: 15rem;
   }
   #sub {
     flex: 0 0 100%;
@@ -565,6 +571,9 @@ nav {
     position: relative;
     gap: 10rem;
     flex: 1 0 100%;
+    left: 0rem;
+  }
+  #garandp div {
     left: 7rem;
   }
   #con2 {
@@ -641,3 +650,6 @@ nav {
   }
 }
 </style>
+
+
+
