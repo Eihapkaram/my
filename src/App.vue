@@ -159,7 +159,7 @@ nav {
     left: 0;
   }
   #garandp div {
-    left: 30rem;
+    left: 32rem;
   }
   #room {
     flex: 1 0 100%;
