@@ -14,7 +14,7 @@
       <li id="li1"><a id="l" href="#jum">service</a></li>
       <li><a id="l" href="#bookercon">book room</a></li>
       <li><a id="l" href="#location">location</a></li>
-      <li><a id="l" href="#con2">room view</a></li>
+      <li><a id="l" href="#gallery">room view</a></li>
       <li><a id="l" href="HelpView">contact us</a></li>
     </ul>
   </div>
