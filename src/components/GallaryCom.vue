@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div id="gallery" class="container-fluid">
     <div class="image-container row">
       <header class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="h">
         اطلالات للغرف
