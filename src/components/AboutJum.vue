@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid" id="jum">
-    <div id="headerdiv" class="container-fluid">
-      <h3>About VISTA</h3>
+    <div id="headerdiv">
+      <div><h3>About VISTA</h3></div>
     </div>
     <div
       class="leftdiv1"
@@ -109,7 +109,6 @@ export default {};
 #jum #headerdiv {
   position: relative;
   transition: all, 2s;
-  flex: 1 0 500px;
 }
 #jum #headerdiv h3 {
   font-size: 40px;
@@ -203,7 +202,11 @@ export default {};
     flex: 1 0 16%;
   }
   #headerdiv {
-    left: 25rem;
+    left: 24rem;
+    flex: 1 0 100%;
+  }
+  #jum #headerdiv {
+    flex: 1 0 500px;
   }
   /*الغرف*/
   #jum .phot {
@@ -280,6 +283,9 @@ export default {};
   #headerdiv {
     left: 10rem;
   }
+  #jum #headerdiv {
+    flex: 1 0 500px;
+  }
   /*الغرف*/
   #jum .phot {
     top: -230px;
@@ -296,6 +302,7 @@ export default {};
 @media (max-width: 500px) {
   #jum {
     top: 10px;
+    margin-block-end: 30rem;
   }
   /*اقل سعر للغرف*/
   #jum .leftdiv1 {
@@ -303,49 +310,56 @@ export default {};
     right: 0px;
     position: relative;
     top: -100px;
-    flex: 1 0 20%;
+    flex: 1 0 40%;
   }
   /*>نوفر لك افضل وسائل الرح*/
   #jum .leftdiv2 {
     left: 150px;
     right: 0px;
     position: relative;
-    top: 150px;
-    flex: 1 0 20%;
+    top: -300px;
+    flex: 1 0 40%;
   }
   /*ميزات الحجز لدينا*/
   #jum .rightdiv1 {
-    left: 0px;
+    left: 150px;
     right: 0px;
     position: relative;
-    top: 500px;
-    flex: 1 0 20%;
+    top: 250px;
+    flex: 1 0 40%;
   }
   /*ملعبنا*/
   #jum .rightdiv2 {
     left: 150px;
     right: 0px;
     position: relative;
-    top: -450px;
-    flex: 1 0 25%;
+    top: -900px;
+    flex: 1 0 40%;
   }
   /*البوول*/
   #jum .topdiv {
-    left: 30px;
+    left: 150px;
     right: 0px;
     position: relative;
-    top: -550px;
+    top: -600px;
     flex: 1 0 40%;
   }
   #headerdiv {
     left: 150px;
+    right: 0px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+  }
+  #jum #headerdiv {
+    flex: 1 0 200px;
   }
   /*الغرف*/
   #jum .phot {
-    top: -200px;
+    top: -550px;
     right: 0px;
-    left: 500px;
-    flex: 1 0 18%;
+    left: 150px;
+    flex: 1 0 40%;
   }
 
   #jum div {
