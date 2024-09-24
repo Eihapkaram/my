@@ -462,9 +462,6 @@ nav {
 
 /*/mobile/*/
 @media (max-width: 500px) {
-  * {
-    border: 2px solid black;
-  }
   #jum {
     gap: 100px;
   }
