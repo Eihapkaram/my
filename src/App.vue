@@ -22,6 +22,7 @@ export default {
   },
 };
 </script>
+
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -253,6 +254,9 @@ nav {
     flex-grow: 0;
     width: 260px;
   }
+  #conhelp {
+    width: 400px;
+  }
 }
 /*/tablet/*/
 @media (max-width: 991px) {
@@ -451,10 +455,16 @@ nav {
     opacity: 0.6;
     z-index: 4;
   }
+  #conhelp {
+    width: 400px;
+  }
 }
 
 /*/mobile/*/
 @media (max-width: 500px) {
+  * {
+    border: 2px solid black;
+  }
   #jum {
     gap: 100px;
   }
@@ -492,7 +502,7 @@ nav {
   }
   /*الغرف*/
   #jum .topdiv {
-    left: -150px;
+    left: -110px;
     right: 0px;
     position: relative;
     top: -400px;
@@ -505,7 +515,7 @@ nav {
   #jum .phot {
     top: -680px;
     right: 0px;
-    left: 150px;
+    left: 120px;
   }
 
   #jum div {
@@ -562,6 +572,9 @@ nav {
     margin-right: px;
     flex: 1 0 40%;
   }
+  #conhelp {
+    width: 350px;
+  }
   #chout {
     flex: 1 0 40%;
   }
@@ -574,7 +587,7 @@ nav {
     left: 0rem;
   }
   #garandp div {
-    left: 7rem;
+    left: 1rem;
   }
   #con2 {
     display: flex;
@@ -605,7 +618,7 @@ nav {
   }
   #card4 {
     flex: 1 0 50%;
-    margin-inline: 100px;
+    margin-inline: 35px;
     margin-block: 10px;
     height: 400px;
     width: 200px;
